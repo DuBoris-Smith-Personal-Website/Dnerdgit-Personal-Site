@@ -1,29 +1,38 @@
 body {
-    background-color:darkgray;
+    background-repeat: no-repeat;
+    background: linear-gradient(110deg, #000 30%, rgba(10, 0, 0, 0));
     width: 90%;
-    max-width: 900px;
     margin: 0 auto;
     font: 0.9em/1.2 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 h1 {
-    color: #000000;
+    font-size: 26px;
+    background: -webkit-linear-gradient(black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(141, 10, 10);
     text-align: center;
-    background-color: rgba(199, 4, 4, 0.844);
-    font-size: 32px;
+    background: linear-gradient(90deg, #fff 0%, rgba(0, 0, 0, 0.977));
     font-weight: 150px;
     text-transform: uppercase; 
     padding: 5px;
 }
 
+.prhead {
+    background: linear-gradient(110deg, #fff 0%, rgba(0, 0, 0, 0.877));
+
+}
+
 h2 {
-    background-color: darkgreen;
-    font-size:26px;
+    background: linear-gradient(110deg, #fff 0%, rgba(0, 0, 0, 0.777));
+    font-size:20px;
     font-weight: 100px;
     margin: 60px auto 20px auto;
     text-align: center;
     padding: 5px;
 }
+
+
 
 .container {
     display: inline-flex;
@@ -38,14 +47,12 @@ h2 {
     margin-top: auto;
 }
 
-.prhead {
-    background-color:rgba(60, 60, 199, 0.852)
-}
-
 p {
-    color:#000000;
+    background: -webkit-linear-gradient(white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(247, 0, 0, 0.584);
     font-size: 14px;
-    font-weight: 50px;
+    font-weight: 100px;
     letter-spacing: 1px;
     text-align: center;
     margin: 40px 0px 50px;
@@ -65,14 +72,13 @@ img {
     margin: 30px 0px 0px;
 }
 
-.header {
-    text-align: center;
+a .links {
+    text-align: right;
 }
 
 a:hover {
     margin: 0px 2px 0px;
     color: rgba(0, 2, 100, 0.911);
-    text-align: center;
     background-color: rgb(127, 207, 207);
 }
 
