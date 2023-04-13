@@ -109,10 +109,10 @@ a:hover {
 }
 
 .indexim img {
-    position:fixed;
+    display:grid;
     height: 500px;
     width: 90%;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
 }
 
 .project {
