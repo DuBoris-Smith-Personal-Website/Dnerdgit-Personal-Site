@@ -16,3 +16,6 @@ if (age >= 18 && registeredEarly === true) {
 } else {
     console.log(`See registration desk for details`);
 }
+
+
+document.getElementByIds("demo").innerHTML = string;
