@@ -7,9 +7,9 @@ body {
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 16px;
     background: -webkit-linear-gradient(black, white);
-    -webkit-background-clip: text;
+    /*-webkit-background-clip: text;*/
     -webkit-text-fill-color: rgb(141, 10, 10);
     text-align: center;
     background: linear-gradient(90deg, #fff 0%, rgba(0, 0, 0, 0.977));
@@ -24,6 +24,9 @@ h1 {
 }
 
 h2 {
+    background: -webkit-linear-gradient(black, white);
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: rgba(247, 0, 0, 0.942);
     background: linear-gradient(110deg, #fff 0%, rgba(0, 0, 0, 0.777));
     font-size:20px;
     font-weight: 100px;
@@ -47,15 +50,28 @@ h2 {
     margin-top: auto;
 }
 
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.box {
+    display:inline-flex;
+}
+
+/*#write {
+    justify-content: flex-end;
+}*/
+
 p {
     background: -webkit-linear-gradient(white, black);
-    -webkit-background-clip: text;
+    /*-webkit-background-clip: text;*/
     -webkit-text-fill-color: rgba(247, 0, 0, 0.584);
     font-size: 14px;
     font-weight: 100px;
     letter-spacing: 1px;
     text-align: center;
-    margin: 40px 0px 50px;
+    margin: 56px 0px 50px;
     padding: 5px;
     
 }
@@ -72,14 +88,10 @@ img {
     margin: 30px 0px 0px;
 }
 
-a .links {
-    text-align: right;
-}
-
 a:hover {
     margin: 0px 2px 0px;
     color: rgba(0, 2, 100, 0.911);
-    background-color: rgb(127, 207, 207);
+    background-color: rgba(9, 172, 63, 0.31);
 }
 
 .indexim img {
@@ -92,4 +104,11 @@ a:hover {
 .project {
     text-align: center;
     margin: 30px;
+}
+
+.project img {
+        border: 2px dotted #000000;
+    height: 200px;
+    width: 200px;
+    margin: 30px 0px 0px;
 }
