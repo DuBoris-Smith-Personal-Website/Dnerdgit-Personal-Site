@@ -6,10 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contact {
+            display: grid;
+        }
+        
+        form {
+            display:grid;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>DuBoris Smith</h1>
+    <div class="header">
+        <div class="surname">
+            <h1>DuBoris Smith</h1>
+        </div>
+
+        <nav>
+        <div class="box">
+            <h1><i><a href="index.html">Home</a></i></h1>
+            <h1><i><a href="about.html">About</a></i></h1>
+            <h1><i><a href="portfolio.html">Portfolio</a></i></h1>
+         </div>
+        </nav>
     </div>
+    <div class="contact">
+        <h3>For business inquiries</h3>
+            <p>If you have any questions regarding completed projects or would like to speak with me directly you may submit you name and email below.</p>
+    </div>
+
+
+    <form action="formsubmitted.html">
+        <input type="text" value="Name">
+        <label type="text">Name</label><br><br>
+        <input type="text" value="Email Address">
+        <label type="email">Email</label><br><br>
+        
+            <input type="submit" value="Submit"> 
+        </form> 
+
+
 </body>
 </html>
