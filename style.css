@@ -16,6 +16,7 @@ h1 {
     font-weight: 150px;
     text-transform: uppercase; 
     padding: 5px;
+    border-radius: 10px;
 }
 
 .prhead {
@@ -33,32 +34,35 @@ h2 {
     margin: 60px auto 20px auto;
     text-align: center;
     padding: 5px;
+    border-radius: 10px;
 }
 
 h3 {
     background: -webkit-linear-gradient(white, black);
     /*-webkit-background-clip: text;*/
     -webkit-text-fill-color: rgba(247, 0, 0, 0.584);
+    /*background: linear-gradient(110deg, #fff 0%, rgba(0, 0, 0, 0.977));*/
     font-size: 14px;
     font-weight: 100px;
     letter-spacing: 1px;
     text-align: center;
-    margin: 56px 0px 50px 0px;
+    margin: 56px auto 50px auto;
     padding: 5px;
+    border-radius: 20px;
 }
 
 .container {
     display: inline-flex;
 }
 
-#health {
+/*#health {
     justify-content:space-around;
 }
 
 #passtime {
     justify-content: flex-end;
     margin-top: auto;
-}
+}*/
 
 .header {
     display:flex;
@@ -83,7 +87,7 @@ p {
     text-align: center;
     margin: 56px 20px 50px 0px;
     padding: 5px;
-    
+    border-radius: 10px;
 }
 
 .hobbies {
@@ -108,17 +112,22 @@ a:hover {
     position:fixed;
     height: 500px;
     width: 90%;
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 .project {
-    text-align: center;
     margin: 30px;
+}
+
+.pject {
+    justify-content: flex-end;
 }
 
 .project img {
     border: 2px dotted #000000;
     height: 200px;
     width: 200px;
-    margin: 30px 0px 0px;
+    margin: 50px 0px 0px;
+    display:flex;
 }
+
